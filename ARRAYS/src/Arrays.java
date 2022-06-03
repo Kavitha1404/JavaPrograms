@@ -292,24 +292,24 @@ public class Arrays {
 		// Substraction of two matrices
 		
 		
-		int arr1[][]= {{12,13},{14,16}};
-		int arr2[][]= {{13,17},{16,24}};
-		int res[][]=new int[arr1.length][arr2.length];
-		for(int i=0;i<res.length;i++) {
-			for(int j=0;j<res[i].length;j++) {
-				res[i][j]=arr2[i][j]-arr1[i][j];
-				
-			}
-		}
-		for(int i=0;i<res.length;i++) {
-			for(int j=0;j<res[i].length;j++) {
-				System.out.print(res[i][j]+" ");
-				
-			}
-			System.out.println();
-		}
-		
-		
+//		int arr1[][]= {{12,13},{14,16}};
+//		int arr2[][]= {{13,17},{16,24}};
+//		int res[][]=new int[arr1.length][arr2.length];
+//		for(int i=0;i<res.length;i++) {
+//			for(int j=0;j<res[i].length;j++) {
+//				res[i][j]=arr2[i][j]-arr1[i][j];
+//				
+//			}
+//		}
+//		for(int i=0;i<res.length;i++) {
+//			for(int j=0;j<res[i].length;j++) {
+//				System.out.print(res[i][j]+" ");
+//				
+//			}
+//			System.out.println();
+//		}
+//		
+//		
 
 }
 	}

@@ -1,5 +1,6 @@
 package com.gqt.fstraining.arrays;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class practice {
@@ -276,8 +277,188 @@ public class practice {
 //		}
 		
 		
-		//4)
+		// sorting
 		
-	}
+//	int [] arr= {12,15,7,6,9,12};
+//	System.out.println(Arrays.toString(arr));
+//	int temp;
+//		for(int i=0;i<arr.length;i++) {
+//			for(int j=i+1;j<arr.length;j++)
+//			if(arr[i]>arr[j]) {
+//				temp=arr[i];
+//				arr[i]=arr[j];
+//				arr[j]=temp;
+//				
+//			}
+//			
+//		}
+//		System.out.println(Arrays.toString(arr));
+		
+		
+		//swapping in an array:
+//		int [] arr= {1,3,4,6,5,7};
+//		swap(arr,1,3);
+//	System.out.println(Arrays.toString(arr));
+//		
+//		
+//	}
+//
+//	private static void swap(int[] arr, int index0, int index1) {
+//		
+//		int temp=arr[index0];
+//		arr[index0]=arr[index1];
+//		arr[index1]=temp;
+//		
+//		
+//	}
+		
+//}
+//		int [] arr= {1,3,4,6,5,7};
+//		System.out.println(max(arr));
+//		
+//		
+//	}
+//
+//	static int max(int[] arr) {
+//		int max=arr[0];
+//		for(int i=1;i<arr.length;i++) {
+//			if(arr[i]>max) {
+//				max=arr[i];
+//			}
+//		}
+//	
+//	return max;
+		
+		
+		
+		
+		
+//		int [] arr= {1,3,4,6,5,7};
+//		System.out.println(maxRange(arr, 1,3));
+//		
+//		
+//	}
+//
+//	static int maxRange(int[] arr,int start,int end) {
+//		int maxval=arr[start];
+//		for(int i=start;i<end;i++) {
+//			if(arr[i]>maxval) {
+//				maxval=arr[i];
+//			}
+//		}
+//	
+//	return maxval;
+		
+		
+		
+		// Matrix addition
 
+//		int [][]arr1= { {1,2,3},{4,5,6},{7,8,9}};
+//		int [][]arr2= { {3,5,8,} ,{6,5,4},{4,6,8}};
+//		int[][]res=new int[arr1.length][arr1[0].length];
+//		for(int i=0;i<arr1.length;i++) {
+//			for(int j=0;j<arr1[i].length;j++) {
+//				res[i][j]=arr1[i][j]+arr2[i][j];
+//			}
+//		}
+//		for(int i=0;i<arr1.length;i++) {
+//			for(int j=0;j<arr1[i].length;j++) {
+//				System.out.print(res[i][j]+" ");
+//		
+//			}
+//			System.out.println();
+//			
+//		}
+		
+		
+		
+		
+		
+		//Identity matrix
+//		int [][]arr= { {1,0,0},{0,1,0},{0,0,1}};
+//		boolean res=true;
+//		for(int i=0;i<arr.length;i++) {
+//			for(int j=0;j<arr[i].length;j++) {
+//				if(i==j && arr[i][j]!=1)
+//				 {
+//					res=false;
+//					break;
+//					
+//				}
+//				if(i!=j && arr[i][j]!=0) {
+//					res=false;
+//					break;
+//				}
+//			}
+//		}
+//		if(res==true) {
+//			System.out.println("Identity matrix");
+//			
+//		}
+//		else {
+//			System.out.println("Not an Identity matrix");
+//		}
+//		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		// Equality of matrices
+//		int arr1[][]= {{21,23},{24,25}};
+//		int arr2[][]= {{21,22},{24,25}};
+//		boolean res=true;
+//		int r1,r2,c1,c2;
+//		r1=arr1.length;
+//		r2=arr2.length;
+//		c1=arr1[0].length;
+//		c2=arr2[0].length;
+//		if(r1!=r2 ||c1!=c2) {
+//			res=false;
+//			System.out.println("Matrices are not equal");
+//			System.exit(0);
+//			
+//		}
+//		else {
+//			for(int i=0;i<arr1.length;i++) {
+//				for(int j=0;j<arr1[0].length;j++) {
+//					if(arr1[i][j]!=arr2[i][j]) {
+//						System.out.println("Matrices are not equal");
+//						System.exit(0);
+//					}
+//				}
+//			}
+//		}
+//		if(res==true) {
+//			System.out.println("Matrices are equal");
+//		}
+//		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+//		
+	}	
 }
